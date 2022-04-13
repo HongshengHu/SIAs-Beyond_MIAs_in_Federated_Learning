@@ -15,3 +15,9 @@ We use Synthetic, MNIST, FEMNIST, CIFAR-10, CIFAR-100, and Purchase datasets for
 * For MNIST, CIFAR-10, and CIFAR-100 datasets, you can directly run the code and the dataset will be downloaded automatically.
 * For Purchase-100, please first dowanlad it from [here](https://drive.google.com/drive/folders/1FBJ6c8v9pM9kO1tX19ccmd3noZRC2JBh?usp=sharing), and then put it in the "data" subfolder of the "FedSGD-SIAs" and the "FedAvg-SIAs" folder
 * For Synthetic, FEMNIST datasets, we have uploaded them to the repository.
+
+# Experiment on FedSGD
+You can try different `--alpha` (non-IID data distribution) to evaluate how non-IID distribution affects the attack performance. For `Synthetic` and `Purchase` datasets, we set `--model=mlp`. For `MNIST` and `CIFAR-10` dataset, we set `--model=cnn`.
+```python
+python main_fed.py --dataset=Synthetic --model=mlp --alpha=1 
+```
