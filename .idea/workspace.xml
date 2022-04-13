@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="980e152b-de5b-4a24-ae63-a5f2cde3452e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FedMD-SIAs/data/cifar10/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FedMD-SIAs/data/cifar100/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FedMD-SIAs/data/mnist/.geetkeep" afterDir="false" />
+    <list default="true" id="980e152b-de5b-4a24-ae63-a5f2cde3452e" name="Default Changelist" comment="add folder">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649823288590</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add purchase folder">
+      <created>1649823349275</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649823349275</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
