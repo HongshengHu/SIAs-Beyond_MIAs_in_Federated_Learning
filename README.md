@@ -8,4 +8,9 @@ This repository contains the code for the experiments of the paper "Source Infer
 * sklearn==0.22.1
 
 # Dataset
-We evaluate SIAs on three typical federated learning frameworks, i.e., [FedSGD](https://arxiv.org/abs/1602.05629), [FedAvg](https://arxiv.org/abs/1602.05629), and [FedMD](https://arxiv.org/abs/1910.03581)
+We evaluate SIAs on three typical federated learning frameworks, i.e., [FedSGD](https://arxiv.org/abs/1602.05629), [FedAvg](https://arxiv.org/abs/1602.05629), and [FedMD](https://arxiv.org/abs/1910.03581).
+
+We use Synthetic, MNIST, FEMNIST, CIFAR-10, CIFAR-100, and Purchase datasets for the experiments. In particular, we use Synthetic, MNIST, CIFAR-10, and Purchase for evaluating SIAs in FedSGD and FedAvg. We use MNIST, FEMNIST, CIFAR-10, and CIFAR-100 for evaluating SIAs in FedMD.
+
+* For MNIST, CIFAR-10, and CIFAR-100 datasets, you can directly run the code and the dataset will be downloaded automatically.
+* For Purchase-100, please first dowanlad it from [here](https://drive.google.com/drive/folders/1FBJ6c8v9pM9kO1tX19ccmd3noZRC2JBh?usp=sharing), and then put it in the "data" subfolder of the "FedSGD-SIAs" and the "FedAvg-SIAs" folder
