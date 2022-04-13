@@ -21,3 +21,14 @@ You can try different `--alpha` (non-IID data distribution) to evaluate how non-
 ```python
 python main_fed.py --dataset=Synthetic --model=mlp --alpha=1 
 ```
+# Experiment on FedAvg
+You can try different `--alpha` (non-IID data distribution), `--local_ep` (number of local epochs) to see how the attack performance changes. For `Synthetic` and `Purchase` datasets, we set `--model=mlp`. For `MNIST` and `CIFAR-10` dataset, we set `--model=cnn`.
+```python
+python main_fed.py --dataset=Synthetic --model=mlp --alpha=1 --local_ep=5
+```
+
+# Experiment on FedMD
+You can change the paramters in the json file in the "conf" subfolder of the "FedMD-SIAs". Setting different values of `alpha` and `N_private_training_round` to change the non-IID data distribution and the local epochs.
+```python
+python CIFAR.py
+```
