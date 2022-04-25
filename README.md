@@ -1,4 +1,4 @@
-# SIAs-Beyond_MIAs_in_Federated_Learning
+# SIAs-Beyond-MIAs-in-Federated-Learning
 This repository contains the code for the experiments of the paper "Source Inference Attacks: Beyond Membership Inference Attacks in Federated Learning"
 
 # Requirement
